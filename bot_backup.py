@@ -1,5 +1,4 @@
 import asyncio
-import os
 
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import (
@@ -17,7 +16,7 @@ from telegram.ext import (
 
 # JANGAN taruh token asli di GitHub.
 # Masukkan token baru hasil regenerate dari BotFather.
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = "8863344516:AAEAQMZrC_629QKB6WGGiru17bnCMsKmqNA"
 
 # ID akun Telegram yang diperbolehkan menggunakan bot
 ALLOWED_USER_ID = 7998043167
